@@ -1,0 +1,27 @@
+body{
+    background-color:rgb(210, 152, 76);
+    width:900px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.header{
+    background-color: black;
+    color:blanchedalmond;
+    padding:20px;
+
+}
+
+.PHeaderTitle{
+    font-size: 20px;
+    border-top: solid 10px blanchedalmond;
+    margin-top: 0;
+    padding-top: 30px;
+    text-align:center;
+}
+
+.H1Hheader{
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-size:150px;
+}
