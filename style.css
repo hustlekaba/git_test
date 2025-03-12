@@ -1,15 +1,24 @@
 body{
-    background-color:rgb(210, 152, 76);
+    background-color: rgb(204, 206, 217);
     width:900px;
     margin-left:auto;
     margin-right:auto;
 }
 
 .header{
-    background-color: black;
+    background-color: rgb(51, 86, 240);
     color:blanchedalmond;
     padding:20px;
+}
 
+.TitleImg{
+    display: flex;
+    border: solid 2px blanchedalmond;
+}
+
+.imgLogo{
+    margin-right :3px;
+    border-left: 2px solid blanchedalmond;
 }
 
 .PHeaderTitle{
@@ -23,5 +32,77 @@ body{
 .H1Hheader{
     margin-bottom: 0;
     padding-bottom: 0;
-    font-size:150px;
+    padding-left: 7px;
+    padding-right: 9px;
+    font-size:100px;
+}
+
+.DivLink{
+    display:flex;
+    background-color:blanchedalmond;
+    padding:10px;
+    margin-top:40px;
+}
+
+.ALink{
+    color:rgb(51, 86, 240);
+    font-weight:bold;
+    text-decoration:none;
+    padding-left:5px;
+    padding-right:5px;
+}
+
+/** FOOTER **/
+.footerDiv
+{
+    background-color: rgb(51, 86, 240);
+    margin-top: 20px;
+    padding: 10px;
+   
+}
+
+.footerBorder
+{   
+    display: flex;
+    justify-content:space-around;
+    justify-items: center;
+    border-top: solid 10px blanchedalmond;
+    border-bottom: solid 2px blanchedalmond;
+    border-left: solid 2px blanchedalmond;
+    border-right: solid 2px blanchedalmond;
+    margin: 10px;
+}
+
+.footerDivUl 
+{
+    width:200px;
+}
+
+.UlFooter
+{
+    /*border-left: solid 2px blanchedalmond;*/
+    color:blanchedalmond;
+    padding-left:7px;
+    margin-left:0;
+    margin-top: 0;
+    padding-top: 0;
+    display: flex;
+    flex-direction:column;
+
+      
+}
+
+.footertH5{
+    color:blanchedalmond;
+    font-size:19px;
+    margin-bottom: 5px;
+    padding: 0;
+    border-bottom: solid blanchedalmond 2px;
+}
+
+.footerA
+{
+    padding-bottom:5px;
+    color: blanchedalmond;
+    text-decoration: none;
 }
